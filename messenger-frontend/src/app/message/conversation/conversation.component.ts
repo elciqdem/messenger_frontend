@@ -7,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrl: './conversation.component.css'
 })
 export class ConversationComponent {
-
+  // issue Solved by adding a minimal property to avoid empty class warning
+  initialized = true;
 }

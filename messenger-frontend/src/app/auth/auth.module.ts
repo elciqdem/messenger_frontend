@@ -9,4 +9,5 @@ import { CommonModule } from '@angular/common';
     CommonModule
   ]
 })
+// AuthModule is intentionally left empty as a container for authentication-related components and services.
 export class AuthModule { }
