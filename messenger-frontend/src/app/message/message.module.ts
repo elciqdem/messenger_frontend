@@ -9,4 +9,6 @@ import { CommonModule } from '@angular/common';
     CommonModule
   ]
 })
-export class MessageModule { }
+export class MessageModule {
+  // MessageModule logic will be implemented here in the future
+}
