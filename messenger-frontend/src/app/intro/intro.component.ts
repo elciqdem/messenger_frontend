@@ -8,5 +8,7 @@ import {RouterLink} from '@angular/router'; //binden das Intro Component an Rout
   styleUrl: './intro.component.css'
 })
 export class IntroComponent {
-
+  constructor() {
+    // IntroComponent initialized
+  }
 }
