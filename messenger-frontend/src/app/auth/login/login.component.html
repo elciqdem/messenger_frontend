@@ -1,0 +1,29 @@
+<h2>Login</h2>
+
+<form (ngSubmit)="submit()" #f="ngForm" class="form">
+  <label>
+    Benutzername
+    <input
+      type="text"
+      name="username"
+      [(ngModel)]="username"
+      required
+    />
+  </label>
+
+  <label>
+    Passwort
+    <input
+      type="password"
+      name="password"
+      [(ngModel)]="password"
+      required
+    />
+  </label>
+
+  <button type="submit" [disabled]="f.invalid">
+    Einloggen
+  </button>
+</form>
+
+<a routerLink="/" class="login-btn">Back to Homepage</a>
